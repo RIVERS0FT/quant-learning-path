@@ -1,0 +1,75 @@
+# 阶段 03：统计检验与因子研究
+
+**时间：第 7—9 个月**
+
+## 阶段目标
+
+建立严谨的因子研究流程，从研究假设、统计检验、截面评价到稳健性与交易可实现性验证。
+
+本阶段将形成从问题定义、数据对齐、研究实现、统计审查到成果复现的完整工作流。
+
+## 阶段结构
+
+```text
+stage-03-statistical-testing-factor-research/
+├── README.md
+└── weeks/
+    ├── README.md
+    ├── week-01-research-question-data-alignment/
+    │   ├── README.md
+    │   └── README.md
+    └── week-13-stage-project-factor-research/
+        ├── README.md
+        └── README.md
+```
+
+## 周学习路线
+
+各周学习计划见本目录下的 `week-*` 子目录。
+
+## 阶段核心项目
+
+完成一个至少包含 3 个候选因子的 A 股因子研究项目，并提交可复现研究报告。
+
+## 阶段完成标准
+
+- 所有研究结论都能追溯到明确的数据版本、参数和代码提交。
+- 研究流程严格区分训练、验证、测试以及当时可见信息。
+- 统计显著性、经济意义、交易成本和风险同时进入判断。
+- 关键模块具有自动测试，核心结果可以一键复现。
+- 报告同时记录成功结果、失败实验、限制和待验证假设。
+
+## 周学习计划
+
+> 学习顺序围绕“统计检验与因子研究”逐步推进，最终完成阶段项目。
+
+| 周次 | 主题 | 周成果 |
+|---:|---|---|
+| 1 | [研究问题与数据对齐](week-01-research-question-data-alignment/) | 研究问题说明书与无未来信息的数据面板 |
+| 2 | [抽样、分布与标准误](week-02-sampling-distributions-standard-error/) | 收益分布与抽样不确定性分析报告 |
+| 3 | [假设检验与效应量](week-03-hypothesis-testing-effect-size/) | 统一检验函数与效应量报告 |
+| 4 | [多重检验与错误发现率](week-04-multiple-testing-fdr/) | 多重检验校正模块与因子筛选规则 |
+| 5 | [事件研究](week-05-event-study/) | 可复用事件研究模板 |
+| 6 | [因子定义与预处理](week-06-factor-definition-preprocessing/) | 标准因子接口与预处理流水线 |
+| 7 | [截面 IC 与预测能力](week-07-cross-sectional-ic/) | 因子 IC 分析模块与报告 |
+| 8 | [因子分组与多空组合](week-08-factor-portfolio-returns/) | 因子分组回测模块 |
+| 9 | [中性化与暴露控制](week-09-neutralization-exposure-control/) | 中性化模块与暴露对比报告 |
+| 10 | [换手、成本与容量](week-10-turnover-cost-capacity/) | 因子可交易性评估报告 |
+| 11 | [因子稳定性与市场状态](week-11-factor-stability-regimes/) | 因子稳定性矩阵与失效诊断 |
+| 12 | [因子比较与稳健性审查](week-12-factor-comparison-robustness/) | 因子研究审查表与候选名单 |
+| 13 | [阶段项目与研究报告](week-13-stage-project-factor-research/) | 可复现因子研究仓库与阶段报告 |
+
+## 每周执行节奏
+
+1. 前两天完成概念学习、数据核验和问题定义。
+2. 中间三天实现核心功能并构造测试或实验。
+3. 第六天进行稳健性、对账、误差或风险检查。
+4. 第七天整合成果、复盘问题并提交 Git。
+
+## 统一研究原则
+
+- 不使用未来信息，不以最终样本替代历史时点样本。
+- 所有参数、数据版本和实验结果均可追踪。
+- 先建立简单可靠的基准，再增加复杂度。
+- 结论必须同时报告收益、风险、成本和不确定性。
+- 保存失败实验，避免只呈现最优结果。
