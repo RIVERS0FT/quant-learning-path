@@ -18,14 +18,10 @@
 ```text
 stage-02-a-share-data-backtesting/
 ├── README.md
-└── weeks/
-    ├── README.md
-    ├── week-01-data-sources-field-dictionary-calendar/
-    │   ├── README.md
-    │   └── README.md
-    └── week-13-stage-project-documentation/
-        ├── README.md
-        └── README.md
+├── week-01-data-sources-field-dictionary-calendar/
+│   └── README.md
+└── week-12-robustness-sensitivity/
+    └── README.md
 ```
 
 ## 周学习路线
@@ -46,6 +42,7 @@ stage-02-a-share-data-backtesting/
 
 ## 阶段完成标准
 
+- 12 周均具有明确周目标、7 天学习路径和验收清单。
 - 原始数据、标准数据和研究结果可以追溯。
 - 回测严格区分信号时点、下单时点、成交时点和估值时点。
 - 现金、持仓市值与总资产能够逐日对账。
@@ -70,8 +67,7 @@ stage-02-a-share-data-backtesting/
 | 9 | [手续费、滑点与冲击成本](week-09-costs-slippage-impact/) | 完成可配置交易成本模块和成本敏感性报告。 |
 | 10 | [T+1、涨跌停与停牌约束](week-10-market-constraints/) | 完成约束感知的订单校验与撮合模块。 |
 | 11 | [绩效分析与归因](week-11-performance-attribution/) | 完成绩效分析模块和自动化报告。 |
-| 12 | [参数敏感性与稳健性测试](week-12-robustness-sensitivity/) | 完成稳健性测试框架和策略审查报告。 |
-| 13 | [阶段项目与文档化](week-13-stage-project-documentation/) | 交付可复现、可测试、可扩展的 A 股日频回测框架。 |
+| 12 | [参数敏感性、稳健性测试与阶段项目](week-12-robustness-sensitivity/) | 完成稳健性测试框架、策略审查报告和可复现日频回测框架。 |
 
 ## 每周执行节奏
 

@@ -13,14 +13,10 @@
 ```text
 stage-03-statistical-testing-factor-research/
 ├── README.md
-└── weeks/
-    ├── README.md
-    ├── week-01-research-question-data-alignment/
-    │   ├── README.md
-    │   └── README.md
-    └── week-13-stage-project-factor-research/
-        ├── README.md
-        └── README.md
+├── week-01-research-question-data-alignment/
+│   └── README.md
+└── week-12-factor-comparison-robustness/
+    └── README.md
 ```
 
 ## 周学习路线
@@ -33,6 +29,7 @@ stage-03-statistical-testing-factor-research/
 
 ## 阶段完成标准
 
+- 12 周均具有明确周目标、7 天学习路径和验收清单。
 - 所有研究结论都能追溯到明确的数据版本、参数和代码提交。
 - 研究流程严格区分训练、验证、测试以及当时可见信息。
 - 统计显著性、经济意义、交易成本和风险同时进入判断。
@@ -41,7 +38,7 @@ stage-03-statistical-testing-factor-research/
 
 ## 周学习计划
 
-> 学习顺序围绕“统计检验与因子研究”逐步推进，最终完成阶段项目。
+> 学习顺序围绕“统计检验与因子研究”逐步推进，第 12 周完成稳健性审查、阶段项目和研究报告。
 
 | 周次 | 主题 | 周成果 |
 |---:|---|---|
@@ -56,8 +53,7 @@ stage-03-statistical-testing-factor-research/
 | 9 | [中性化与暴露控制](week-09-neutralization-exposure-control/) | 中性化模块与暴露对比报告 |
 | 10 | [换手、成本与容量](week-10-turnover-cost-capacity/) | 因子可交易性评估报告 |
 | 11 | [因子稳定性与市场状态](week-11-factor-stability-regimes/) | 因子稳定性矩阵与失效诊断 |
-| 12 | [因子比较与稳健性审查](week-12-factor-comparison-robustness/) | 因子研究审查表与候选名单 |
-| 13 | [阶段项目与研究报告](week-13-stage-project-factor-research/) | 可复现因子研究仓库与阶段报告 |
+| 12 | [因子比较、稳健性审查与阶段项目](week-12-factor-comparison-robustness/) | 因子候选名单、可复现研究仓库与阶段报告 |
 
 ## 每周执行节奏
 
