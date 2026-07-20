@@ -13,14 +13,10 @@
 ```text
 stage-04-multifactor-portfolio-project/
 ├── README.md
-└── weeks/
-    ├── README.md
-    ├── week-01-factor-library-architecture/
-    │   ├── README.md
-    │   └── README.md
-    └── week-13-stage-project-multifactor/
-        ├── README.md
-        └── README.md
+├── week-01-factor-library-architecture/
+│   └── README.md
+└── week-12-research-reproducibility/
+    └── README.md
 ```
 
 ## 周学习路线
@@ -33,6 +29,7 @@ stage-04-multifactor-portfolio-project/
 
 ## 阶段完成标准
 
+- 12 周均具有明确周目标、7 天学习路径和验收清单。
 - 阶段核心模块具有清晰接口、配置、日志和自动测试。
 - 数据、代码、参数、模型、策略和报告均可追踪版本。
 - 样本外结果、交易成本、风险与失败案例被完整记录。
@@ -41,7 +38,7 @@ stage-04-multifactor-portfolio-project/
 
 ## 周学习计划
 
-> 本阶段主题：多因子组合与完整研究项目。每周以可验证成果结束。
+> 本阶段主题：多因子组合与完整研究项目。第 12 周完成可复现报告、阶段项目与答辩。
 
 | 周次 | 主题 | 周成果 |
 |---:|---|---|
@@ -56,8 +53,7 @@ stage-04-multifactor-portfolio-project/
 | 9 | [换手与成本控制](week-09-turnover-cost-control/) | 成本感知组合方案 |
 | 10 | [收益归因与风险分析](week-10-attribution-risk/) | 组合归因报告 |
 | 11 | [滚动样本外验证](week-11-walk-forward-oos/) | 滚动样本外评估框架 |
-| 12 | [研究报告与可复现性](week-12-research-reproducibility/) | 可复现研究报告模板 |
-| 13 | [阶段项目与答辩](week-13-stage-project-multifactor/) | 多因子完整研究仓库 |
+| 12 | [研究报告、可复现性与阶段项目](week-12-research-reproducibility/) | 可复现多因子完整研究仓库与答辩材料 |
 
 ## 每周执行节奏
 
