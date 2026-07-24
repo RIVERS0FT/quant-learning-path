@@ -39,7 +39,7 @@
 \[
 Sharpe
 =
-rac{R_p-R_f}{\sigma_p}
+\frac{R_p-R_f}{\sigma_p}
 \]
 
 最大回撤：
@@ -48,8 +48,8 @@ Sharpe
 MDD
 =
 \min_t\left(
-rac{V_t-\max_{s\le t}V_s}{\max_{s\le t}V_s}
-ight)
+\frac{V_t-\max_{s\le t}V_s}{\max_{s\le t}V_s}
+\right)
 \]
 
 ## 检查清单
